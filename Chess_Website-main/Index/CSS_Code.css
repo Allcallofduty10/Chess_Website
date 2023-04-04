@@ -16,7 +16,6 @@
   .container {
     width: 100%;
     height: 100%;
-    /* CSS Smooth Scroll */
     overflow-y: scroll; 
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
@@ -67,17 +66,15 @@
     width: 100%;
     height: 100vh;
    
-    /* Scroll Snap */
     scroll-snap-align: center;
   }
   
   section h1 {
     font-size: 4rem;
   }
-  
-  /* Section Images */
+
   section#home {
-    background: url('https://images.unsplash.com/photo-1586165368502-1bad197a6461?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1258&q=80') no-repeat center center/cover;;
+    background: url('https://images.unsplash.com/photo-1505461296292-7d67beed10a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80') no-repeat center center/cover;;
   }
   
   section#about {
@@ -91,6 +88,64 @@
   section#contact {
     background: url('https://source.unsplash.com/2aAHlfDOhJM/1600x900') no-repeat center center/cover;;
   }
+  
+  section#Rules {
+    background: url('https://images.unsplash.com/photo-1529699310859-b163e33e4556?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=905&q=80') no-repeat center center/cover;;
+  }
+  section#Objective {
+    background: url('https://images.unsplash.com/photo-1528819622765-d6bcf132f793?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80') no-repeat center center/cover;;
+  }
+  section#king {
+    background: url('https://images.unsplash.com/photo-1625750331870-624de6fd3452?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80') no-repeat center center/cover;;
+  }
+  section#queen {
+    background: url('https://images.unsplash.com/photo-1636135539510-5dc3776058d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80') no-repeat center center/cover;;
+  }
+  section#bishop{
+    background: url('https://images.unsplash.com/photo-1547022145-dfc3f3e1bc03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80') no-repeat center center/cover;;
+  }
+  section#knight{
+    background: url('https://images.unsplash.com/photo-1529699310859-b163e33e4556?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=905&q=80') no-repeat center center/cover;;
+  }
+  section#rook{
+    background: url('https://images.unsplash.com/photo-1529699310859-b163e33e4556?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=905&q=80') no-repeat center center/cover;;
+  }
+  section#pawns{
+    background: url('https://images.unsplash.com/photo-1529699310859-b163e33e4556?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=905&q=80') no-repeat center center/cover;;
+  }
+  section#Origion{
+    background: url('https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/NiiLoC/phpBNAzBL.jpeg') no-repeat center center/cover;;
+  }
+  section#Medieval{
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/NMSLewisChessmen29.jpg/1200px-NMSLewisChessmen29.jpg') no-repeat center center/cover;;
+  }
+  section#Modern{
+    background: url('https://images.unsplash.com/photo-1587888191477-e74ac6bc9c4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1214&q=80') no-repeat center center/cover;;
+  }
+section#Today{
+  background: url('https://images.unsplash.com/photo-1587888191477-e74ac6bc9c4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1214&q=80') no-repeat center center/cover;;
+}
+  section#Video{
+    background: url('https://cdn-01.cms-ap-v2i.applyflow.com/hudson-au/wp-content/cache/bb-plugin/cache/how-to-make-a-video-job-application5f63669f3e38414eb1bb56b10c1c96f8-1024x731-landscape.png') no-repeat center center/cover;;
+  }
+  section#EnPassant{
+    background: url('https://images.unsplash.com/photo-1614770493132-50abd86a4f33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1166&q=80') no-repeat center center/cover;;
+  }
+  section#Castling{
+    background: url('https://images.unsplash.com/photo-1550239261-89b17e004488?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80') no-repeat center center/cover;;
+  }
+  section#Critical{
+    background: url('https://images.unsplash.com/photo-1620662831351-9f68f76d0b9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80') no-repeat center center/cover;;
+  }
+  section#Memory{
+    background: url('https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80  ') no-repeat center center/cover;;
+  }
+  section#Social{
+    background: url('https://images.unsplash.com/photo-1510972527921-ce03766a1cf1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80') no-repeat center center/cover;;
+  }
+  section#Creativity{
+    background: url('https://images.unsplash.com/photo-1615739137453-bcadd839a913?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80') no-repeat center center/cover;;
+  }
   a {
     color: inherit;
     text-decoration: none;
@@ -99,8 +154,26 @@
   a:hover {
     text-decoration: underline;
   }
-  
+  header img {
+    width: 60px; 
+    height: auto; 
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+ .EnPassant {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
+.EnPassant img {
+  float: left;
+  margin-right: 20px;
+}
+
+ 
   
   
   
